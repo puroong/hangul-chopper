@@ -1,10 +1,10 @@
 {
-  "name": "npm-lib-boilerplate",
-  "version": "0.0.1",
+  "name": "hangul-chopper",
+  "version": "0.0.0",
   "description": "npm library boilerplate",
   "author": "puroong",
   "license": "MIT",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"**/*.ts\"",
@@ -20,7 +20,6 @@
     "release": "release-it",
     "prepare": "husky install"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-angular": "^12.1.4",
